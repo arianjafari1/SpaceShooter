@@ -33,6 +33,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
 	float ElevationSpeed; //speed at which the elevation will happen, when it goes up and down
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Settings")
+	float DownwardSpeed; //speed to be used to get the collactable towards the player
+
 private:
 	FVector StartLocation; //vector that will use to get the location of the actor that its attached to
 };
